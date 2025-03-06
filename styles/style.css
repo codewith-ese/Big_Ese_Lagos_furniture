@@ -51,6 +51,7 @@ h5 {
     border: 1px solid #e0e0e0; /* Light border */
     border-radius: 8px; /* Rounded corners */
     overflow: hidden; /* Ensures child elements don't overflow */
+    padding: 1rem;
 }
 
 .card-img-top {
