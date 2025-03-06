@@ -1,0 +1,92 @@
+body {
+    padding-top: 56px;
+}
+
+h3 {
+    /*color: #EF4006;*/
+    color: #F70870;
+}
+h5 {
+    color: #EF4006;
+
+}
+.hero {
+    height: 100vh;
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hero img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+#contact {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+}
+.transparent-bg {
+    background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+}
+.portfolio-item {
+    margin-bottom: 30px;
+}
+.portfolio-item {
+    margin-bottom: 30px;
+    transition: transform 0.3s;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-5px);
+}
+
+.card {
+    border: 1px solid #e0e0e0; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Ensures child elements don't overflow */
+}
+
+.card-img-top {
+    height: 200px; /* Fixed height for images */
+    object-fit: cover; /* Ensures images cover the area */
+}
+
+.card-body {
+    text-align: center; /* Center text in card */
+}
+
+/* Our .service */
+.service-icon {
+    width: 50px; /* Default size */
+}
+
+@media (max-width: 768px) {
+    .service-icon {
+        width: 40px; /* Smaller size for tablets */
+    }
+}
+
+@media (max-width: 576px) {
+    .service-icon {
+        width: 30px; /* Even smaller size for mobile */
+    }
+}
+
+.section-heading {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: #fff;
+    width: 100%;
+    padding: 10px 15px;       /* Padding to give some space around the text */
+    border-radius: 5px;       /* Rounded corners */
+    display: inline-block;     /* Makes the background color wrap around the text */
+    margin-bottom: 20px;      /* Space below the heading */
+}
+
+
