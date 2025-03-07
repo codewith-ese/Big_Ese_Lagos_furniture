@@ -90,4 +90,35 @@ h5 {
     margin-bottom: 20px;      /* Space below the heading */
 }
 
+.section-about-connect {
+    background: linear-gradient(to right, #f3f3f5, #d9dde3);
+    color: #fff;
+    width: 100%;
+    padding: 10px 15px;       /* Padding to give some space around the text */
+    border-radius: 5px;       /* Rounded corners */
+    display: inline-block;     /* Makes the background color wrap around the text */
+    margin-bottom: 20px;      /* Space below the heading */
+    margin-top: 20px;
+}
+
+/* Whatsapp style  */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:1000;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
 
