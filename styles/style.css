@@ -131,3 +131,32 @@ h5 {
 }
 
 
+/* Carousel Image Styles */
+.carousel-item img {
+    width: 50%; /* Make the image take the full width of the carousel */
+    height: auto; /* Maintain the aspect ratio */
+    max-height: 400px; /* Set a maximum height for the images */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    border: 20px solid #079297;
+    border-radius: 5px;
+}
+
+/* Optional: Adjust the carousel caption for better visibility */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better text visibility */
+    padding: 5px; /* Add some padding */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.carousel-header {
+    background: linear-gradient(to right, #1e7260, #079297);
+    color: #fff;
+    width: 100%;
+    padding: 10px 15px;       /* Padding to give some space around the text */
+    border-radius: 5px;       /* Rounded corners */
+    display: inline-block;     /* Makes the background color wrap around the text */
+    margin-bottom: 20px;      /* Space below the heading */
+    box-shadow: 1px 2px 4px black;
+}
+
+
