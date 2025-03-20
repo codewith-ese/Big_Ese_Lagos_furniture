@@ -51,7 +51,13 @@
 </nav>
 
 <section id="home" class="hero">
-    <img src="images/big-ese-furniture-image.webp" alt="Hero Image" class="img-fluid">
+    <!-- <img src="images/big-ese-furniture-image.webp" alt="Hero Image" class="img-fluid"> -->
+    <picture>
+        <source srcset="images/big-ese-furniture-image.webp" media="(min-width: 1000px)" class="img-fluid">
+        <source srcset="images/hero-medium.webp" media="(min-width: 500px)">
+        <img src="images/hero-small.webp" alt="big-ese, furniture Lagos, Nigeria" width="500" height="300">
+    </picture>
+
     <div class="container">
         <div class="transparent-bg text-white p-4 rounded shadow-lg">
             <h1>Big-Ese-Furniture</h1>
