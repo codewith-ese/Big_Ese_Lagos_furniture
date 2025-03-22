@@ -1,0 +1,18 @@
+/* large view navigation ************************************/
+
+@media (min-width: 1000px) {
+    /* map class starts here  */
+    .map-class iframe {
+        display: block;
+        align-items: center;
+        width: 80%;
+        height: 250px;
+        margin: auto;
+        padding: 0;
+        box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.751);
+      }
+    .map-class h2{
+        text-align: center;
+    }
+    
+}

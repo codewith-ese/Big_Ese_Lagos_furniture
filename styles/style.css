@@ -180,4 +180,24 @@ h5 {
     box-shadow: 1px 2px 4px black;
 }
 
-
+/* map class starts here  */
+.map-class{
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+    /* box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.751); */
+    box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.443);
+  }
+  
+  .map-class iframe {
+    display: block;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    margin: auto;
+    padding: 0;
+    box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.751);
+  }
+.map-class h2{
+    text-align: center;
+}
