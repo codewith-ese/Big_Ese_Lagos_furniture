@@ -56,6 +56,7 @@ h5 {
     transform: translateY(-5px);
 }
 
+
 .card {
     border: 1px solid #e0e0e0; /* Light border */
     border-radius: 8px; /* Rounded corners */
@@ -103,12 +104,44 @@ h5 {
     background: linear-gradient(to right, #f3f3f5, #d9dde3);
     color: #fff;
     width: 100%;
-    padding: 10px 15px;       /* Padding to give some space around the text */
+    padding: 20px 15px;       /* Padding to give some space around the text */
     border-radius: 5px;       /* Rounded corners */
     display: inline-block;     /* Makes the background color wrap around the text */
     margin-bottom: 20px;      /* Space below the heading */
     margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+.section-about-connect {
+    margin-bottom: 30px;
+    transition: transform 0.5s;
+}
+
+.section-about-connect:hover {
+    transform: translateY(-10px);
+}
+
+.section-about-connect img {
+    max-width: 350px;
+    height: auto;
+    object-fit: cover;
+}
+
+.section-about-mission {
+    /* background: linear-gradient(to right, #f3f3f5, #d9dde3);
+    color: #212529; */
+    width: 50%;
+    padding: 20px 15px;       /* Padding to give some space around the text */
+    border-radius: 5px;       /* Rounded corners */
+    display: inline-block;     /* Makes the background color wrap around the text */
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-about-mission img {
+    max-width: 230px;
+}
+
 
 /* Whatsapp style  */
 .float{
