@@ -11,6 +11,20 @@ h5 {
     color: #EF4006;
 
 }
+html {
+    scroll-behavior: smooth;
+}
+
+/* smooth transition into another page  */
+body {
+    transition: opacity 0.5s ease;
+    opacity: 1;
+}
+
+.fade-out {
+    opacity: 0;
+}
+
 .hero {
     height: 100vh;
     position: relative;
